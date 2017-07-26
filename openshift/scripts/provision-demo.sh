@@ -237,7 +237,7 @@ function wait_while_empty() {
   while [ -z "$(eval ${_CONDITION})" ]
   do
     echo "."
-    sleep 5
+    sleep 10
     x=$(( $x + 1 ))
     if [ $x -gt $_TIMEOUT ]
     then
