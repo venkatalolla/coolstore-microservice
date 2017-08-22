@@ -41,6 +41,10 @@ a{
   color: #154B65;
 }
 
+nav .navbar-nav .navbar-primary{
+  display: none;
+}
+
 .navbar-pf .navbar-utility{
   top: 22px;
   right: 10px;
