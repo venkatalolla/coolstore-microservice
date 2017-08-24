@@ -207,7 +207,7 @@ label{
 }
 
 .panel .panel-primary{
-  border: 0;
+  border: 1 px solid #F4F4F4;
   box-shadow: 0 1px 5px rgba(1,1,1,.05);
   margin-bottom: 0;
   margin: 100px 0 0;
