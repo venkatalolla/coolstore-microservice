@@ -39,47 +39,49 @@
     </div>
 
     <div class="col-md-4">
-      <div class=" panel panel-primary">
-        <div class="panel-heading">
-          <h3 class="panel-title">Your Cart</h3>
-        </div>
-        <div class="panel-body">
-        <h3>
-          Subtotal: {{subtotal | currency}}
-        </h3>
-        <h3>
-          Discounts: {{cart.cartItemPromoSavings |
-          currency}}
-        </h3>
-        <!-- <h3>
-          Subtotal: {{cart.cartItemTotal | currency}}
-        </h3> -->
-        <h3>
-          Shipping: {{cart.shippingTotal | currency}}
-        </h3>
-        <!-- <h3>
-          Promotional Shipping Savings: {{cart.shippingPromoSavings |
-          currency}}
-        </h3> -->
-        <h2>
-          Total: <strong>{{cart.cartTotal | currency}}</strong>
-        </h2>
-      </div>
-      <div class="panel-footer">
-        <!-- <button ng-if="ssoEnabled() && isLoggedIn()" ng-disabled="cart.shoppingCartItemList.length <= 0"
-          class="btn btn-primary btn-lg" data-toggle="modal"
-          data-target="#checkoutModal" type="button">
-          Checkout
-        </button> -->
-        <!-- <button ng-if="ssoEnabled() && !isLoggedIn()" ng-click="login()" class="btn btn-primary btn-lg" type="button">
-            Sign in to purchase
-        </button>
-        <button ng-if="!ssoEnabled()" ng-disabled="true" title="SSO has not been configured" class="btn btn-primary btn-lg" type="button">
-            Sign in unavailable
-        </button> -->
-        <a ng-href="#/" class="btn btn-primary">Checkout</a>
-      </div>
-    </div>
+			<div class="list-view-container">
+	      <div class=" panel panel-primary">
+	        <div class="panel-heading">
+	          <h3 class="panel-title">Your Cart</h3>
+	        </div>
+	        <div class="panel-body">
+	        <h3>
+	          Subtotal: {{subtotal | currency}}
+	        </h3>
+	        <h3>
+	          Discounts: {{cart.cartItemPromoSavings |
+	          currency}}
+	        </h3>
+	        <!-- <h3>
+	          Subtotal: {{cart.cartItemTotal | currency}}
+	        </h3> -->
+	        <h3>
+	          Shipping: {{cart.shippingTotal | currency}}
+	        </h3>
+	        <!-- <h3>
+	          Promotional Shipping Savings: {{cart.shippingPromoSavings |
+	          currency}}
+	        </h3> -->
+	        <h2>
+	          Total: <strong>{{cart.cartTotal | currency}}</strong>
+	        </h2>
+	      </div>
+	      <div class="panel-footer">
+	        <!-- <button ng-if="ssoEnabled() && isLoggedIn()" ng-disabled="cart.shoppingCartItemList.length <= 0"
+	          class="btn btn-primary btn-lg" data-toggle="modal"
+	          data-target="#checkoutModal" type="button">
+	          Checkout
+	        </button> -->
+	        <!-- <button ng-if="ssoEnabled() && !isLoggedIn()" ng-click="login()" class="btn btn-primary btn-lg" type="button">
+	            Sign in to purchase
+	        </button>
+	        <button ng-if="!ssoEnabled()" ng-disabled="true" title="SSO has not been configured" class="btn btn-primary btn-lg" type="button">
+	            Sign in unavailable
+	        </button> -->
+	        <a ng-href="#/" class="btn btn-primary">Checkout</a>
+	      </div>
+	    </div>
+		</div>
   </div>
 </div>
 

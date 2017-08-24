@@ -206,6 +206,10 @@ label{
   font-weight: 100;
 }
 
+.panel-primary{
+  border: 1 px solid #F4F4F4;
+}
+
 .panel .panel-primary{
   border: 1 px solid #F4F4F4;
   box-shadow: 0 1px 5px rgba(1,1,1,.05);
