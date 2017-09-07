@@ -37,6 +37,8 @@ objects:
     labels:
       application: web-ui
   spec:
+    nodeSelector:
+      beta.kubernetes.io/os=linux
     output:
       to:
         kind: ImageStreamTag
