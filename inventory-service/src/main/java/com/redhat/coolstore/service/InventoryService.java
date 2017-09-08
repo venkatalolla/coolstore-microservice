@@ -23,10 +23,10 @@ public class InventoryService {
 		Inventory inventory = em.find(Inventory.class,itemId);
 
 		// removed comments
-		List<String> recalledProducts = Arrays.asList("165613","165614");
+		/*List<String> recalledProducts = Arrays.asList("165613","165614");
 		if (recalledProducts.contains(itemId)) {
 			inventory.setQuantity(0);
-		}
+		}*/
 		
 		return inventory;
 	}
