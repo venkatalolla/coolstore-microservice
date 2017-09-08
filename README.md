@@ -42,7 +42,7 @@ curl http://inventory:8080/api/availability/329299
 curl http://cart:8080/api/cart/FOO
 ```
 
-Deploy CoolStore Microservices with CI/CD
+Deploy CoolStore Microservices with CI/CD.
 ================
 In order to deploy the complete demo infrastructure for demonstrating Microservices, CI/CD, 
 agile integrations and more, either order the demo via RHPDS or use the following script to provision the demo
